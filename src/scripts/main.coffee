@@ -27,4 +27,20 @@
     )
     return newArr
 
+
+  fibonacci = () ->
+    newArr = []
+
+    while(newArr.length < 101)
+      console.log(newArr.length)
+      if newArr.length == 0 
+        newArr.push(0)
+        newArr.push(1)
+      else 
+        newArr.push(newArr[newArr.length-1] + newArr[newArr.length-2])
+
+    return newArr
+
+  console.log fibonacci()
+
 )()
