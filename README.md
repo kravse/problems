@@ -1,37 +1,23 @@
-boilerplate
-===========
+A sandbox for answering programming problems in my spare time. Will start easy with the following: 
 
-Boilerplate with Gulp Bower Jade Stylus and CoffeeScript 
+Problem 1
 
+Write three functions that compute the sum of the numbers in a given list using a for-loop, a while-loop, and recursion.
 
-This is a quick little boilerplate using [Gulp](http://gulpjs.com/) to streamline [Jade](http://jade-lang.com/), [Stylus](https://learnboost.github.io/stylus/) and [CoffeeScript](http://coffeescript.org/) compilation. [Jeet](http://jeet.gs/) is included for responsive grid functionality. 
+Problem 2
 
-Instructions: 
+Write a function that combines two lists by alternatingly taking elements. For example: given the two lists [a, b, c] and [1, 2, 3], the function should return [a, 1, b, 2, c, 3].
 
-1) In the project root, run 'npm install'
+Problem 3
 
-2) In the project root, run 'bower install'
+Write a function that computes the list of the first 100 Fibonacci numbers. By definition, the first two numbers in the Fibonacci sequence are 0 and 1, and each subsequent number is the sum of the previous two. As an example, here are the first 10 Fibonnaci numbers: 0, 1, 1, 2, 3, 5, 8, 13, 21, and 34.
 
-3) Run gulp to compile all static assets from 'src' into their build destinations. 
+Problem 4
 
-4) Optional: Run gulp watch to poll for changes. 
+Write a function that given a list of non negative integers, arranges them such that they form the largest possible number. For example, given [50, 2, 1, 9], the largest formed number is 95021.
 
-Currently the setup minifies and uglifies the css and js. If you want more readable source code do the following: 
+Problem 5
 
-In gulpfile.coffee:
+Write a program that outputs all possibilities to put + or - or nothing between the numbers 1, 2, ..., 9 (in this order) such that the result is always 100. For example: 1 + 2 + 34 – 5 + 67 – 8 + 9 = 100.
 
-CSS: 
-Remove all instances of .pipe(minify({keepBreaks:false}))
-
-JS: 
-Remove all instances of .pipe(uglify())
-
-JADE: 
-Change .pipe(plugins.jade({ pretty: false })) to .pipe(plugins.jade({ pretty: true }))
-
-
-
-
-
-In order to use the Live Reload functionanlity, download the livereload plugin for your browser at: https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en
-
+src: https://blog.svpino.com/2015/05/07/five-programming-problems-every-software-engineer-should-be-able-to-solve-in-less-than-1-hour
