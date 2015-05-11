@@ -20,4 +20,13 @@ Problem 5
 
 Write a program that outputs all possibilities to put + or - or nothing between the numbers 1, 2, ..., 9 (in this order) such that the result is always 100. For example: 1 + 2 + 34 – 5 + 67 – 8 + 9 = 100.
 
+Problem 6
+
+Write a function to rotate an NxN matrix by 90 degrees. You should rotate it in place, meaning you can't use another matrix to perform the rotation, but instead you have to use the same given structure.
+
+1 2 3 4
+5 6 7 8
+9 a b c 
+d e f g
+
 src: https://blog.svpino.com/2015/05/07/five-programming-problems-every-software-engineer-should-be-able-to-solve-in-less-than-1-hour
