@@ -1,0 +1,13 @@
+{
+  "name": "boilerplate",
+  "description": "boilerplate",
+  "dependencies": {
+    "jquery": "1.*",
+    "modernizr": "*",
+    "imagesloaded": "*",
+    "fastclick": "*"
+  },
+  "resolutions": {
+    "jquery": "= 2.1.0"
+  }
+}
