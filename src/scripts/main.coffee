@@ -41,6 +41,23 @@
 
     return newArr
 
-  console.log fibonacci()
+  fizzBuzz = () ->
+    x = 0
+    Arr = []
+    while x < 30
+      x++
+      if x % 3 == 0 and x % 5 == 0
+        Arr.push('FizzBuzz')
+      else if x % 3 == 0
+        Arr.push('Fizz')
+      else if x % 5 == 0
+        Arr.push('Buzz')
+      else
+        Arr.push(x)
+    
+    return Arr
+
+  console.log(fizzBuzz())
+
 
 )()
