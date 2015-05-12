@@ -3,7 +3,7 @@
   list = [2, 3, 5, 7, 12, 88]
   list2 = ['a', 'b', 'c', 'd', 'e', 'f']
 
-  #question 1.c 
+  #Write a function that computes the sum of the numbers in a given list using recursion.
   addRecursive = (list) ->
     
     if(list == parseInt(list, 10)) 
@@ -15,7 +15,7 @@
       )
       return answer
 
-  #question 2
+  #Write a function that combines two lists by alternatingly taking elements. For example: given the two lists [a, b, c] and [1, 2, 3], the function should return [a, 1, b, 2, c, 3].
   combine = (list, list2) ->
     if ! list.length == list2.length
       return 'mismatched lengths'
@@ -27,7 +27,7 @@
     )
     return newArr
 
-
+  #Write a function that computes the list of the first 100 Fibonacci numbers. By definition, the first two numbers in the Fibonacci sequence are 0 and 1, and each subsequent number is the sum of the previous two. As an example, here are the first 10 Fibonnaci numbers: 0, 1, 1, 2, 3, 5, 8, 13, 21, and 34.
   fibonacci = () ->
     newArr = []
 
@@ -40,7 +40,7 @@
         newArr.push(newArr[newArr.length-1] + newArr[newArr.length-2])
 
     return newArr
-
+  #Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
   fizzBuzz = () ->
     x = 0
     Arr = []
